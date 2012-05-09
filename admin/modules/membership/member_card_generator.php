@@ -198,7 +198,7 @@ $html_str .= '</style>'."\n";
         foreach ($card_rows as $card) {
             $html_str .= '<td valign="top">';
 $html_str .= '<div id="kontainer_div">';
-$html_str .= '<div><img width="'.($card_box_width*$card_factor).'px" height="'.($card_box_height*$card_factor).'px" src="card.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
+$html_str .= '<div><img width="'.($card_box_width*$card_factor).'px" height="'.($card_box_height*$card_factor).'px" src="card1.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
 $html_str .= '<div id="logo_div"><img height="40px" width="40px" src="'.$card_logo.'"></img></div>';
 $html_str .= '<div id="header1_div">';
 $html_str .= '<h1>'.$card_front_header1_text.'</h1>';
@@ -225,7 +225,7 @@ $html_str .= '<p class="stempel lokasi">'.$card_lokasi_stempel.', '.$card['regis
 $html_str .= '<p class="stempel pejabat">'.$card_pejabat_stempel.'</br>NIP.'.$card_nip_pejabat_stempel.'</p></div></div></td>';
 $html_str .= '<td valign="top">';
 $html_str .= '<div id="kontainer_div">';
-$html_str .= '<div><img height="'.($card_box_height*$card_factor).'px" width="'.($card_box_width*$card_factor).'px" src="card.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
+$html_str .= '<div><img height="'.($card_box_height*$card_factor).'px" width="'.($card_box_width*$card_factor).'px" src="card2.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
 $html_str .= '<div id="logo_div"><img height="35px" width="35px" src="'.$card_logo.'"></img></div>';
 $html_str .= '<div id="header2_div">';
 $html_str .= '<h1>'.$card_back_header1_text.'</h1>';
