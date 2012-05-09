@@ -207,7 +207,7 @@ $html_str .= '<div class="bio_div">';
 $html_str .= ''.( $card_include_id_label?'':'<!--').'<p class="bio"><label class="bio_label">'.__('Member ID').'</label><span>: </span>'.$card['member_id'].'</p>'.( $card_include_id_label?'':'-->').'';
 $html_str .= ''.( $card_include_name_label?'':'<!--').'<p class="bio"><label class="bio_label">'.__('Member Name').'</label><span>: </span>'.$card['member_name'].'</p>'.( $card_include_name_label?'':'-->').'';
 $html_str .= ''.( $card_include_pin_label?'':'<!--').'<p class="bio"><label class="bio_label">'.__('Personal ID Number').'</label><span>: </span>'.$card['pin'].'</p>'.( $card_include_pin_label?'':'-->').'';
-$html_str .= ''.( $card_include_inst_label?'':'<!--').'<p class="bio_alamat"><label class="bio_label">'.__('Institution').' / '.__('Postal Code').'</label><span style="float:left">: </span>'.( $card_include_inst_label?'':'-->').'';
+$html_str .= ''.( $card_include_inst_label?'':'<!--').'<p class="bio_alamat"><label class="bio_label">'.__('Institution').'</label><span style="float:left">: </span>'.( $card_include_inst_label?'':'-->').'';
 $html_str .= ''.( $card_include_inst_label?'':'<!--').'<span class="label_alamat">'.$card['inst_name'].'</span></p>'.( $card_include_inst_label?'':'-->').'';
 $html_str .= ''.( $card_include_email_label?'':'<!--').'<p class="bio"><label class="bio_label">'.__('E-mail').'</label><span>: </span>'.$card['member_email'].'</p>'.( $card_include_email_label?'':'-->').'';
 $html_str .= ''.( $card_include_address_label?'':'<!--').'<p class="bio_alamat"><label class="bio_label">'.__('Address').' / '.__('Phone Number').'</label><span style="float:left">: </span>'.( $card_include_address_label?'':'-->').'';
@@ -225,7 +225,7 @@ $html_str .= '<p class="stempel lokasi">'.$card_lokasi_stempel.', '.$card['regis
 $html_str .= '<p class="stempel pejabat">'.$card_pejabat_stempel.'</br>NIP.'.$card_nip_pejabat_stempel.'</p></div></div></td>';
 $html_str .= '<td valign="top">';
 $html_str .= '<div id="kontainer_div">';
-$html_str .= '<div><img height="'.($card_box_height*$card_factor).'px" width="'.($card_box_width*$card_factor).'px" src="card2.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
+$html_str .= '<div><img height="'.($card_box_height*$card_factor).'px" width="'.($card_box_width*$card_factor).'px" src="card.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
 $html_str .= '<div id="logo_div"><img height="35px" width="35px" src="'.$card_logo.'"></img></div>';
 $html_str .= '<div id="header2_div">';
 $html_str .= '<h1>'.$card_back_header1_text.'</h1>';
