@@ -222,7 +222,7 @@ $html_str .= '<div class="stempel_div">';
 $html_str .= '<div class="gambar_stempel_div"><img class="" height="35px" width="35px" src="'.$card_gambar_stempel.'"></img></div>';
 $html_str .= '<div class="gambar_ttd_div"><img class="" height="30px" width="100px" src="'.$card_gambar_ttd_stempel.'"></img></div>';
 $html_str .= '<p class="stempel lokasi">'.$card_lokasi_stempel.', '.$card['register_date'].'</p><p class="stempel jabatan">'.$card_jabatan_stempel.'</p><br>';
-$html_str .= '<p class="stempel pejabat">'.$card_pejabat_stempel.'</br>NIP.'.$card_nip_pejabat_stempel.'</p></div></div></td>';
+$html_str .= '<p class="stempel pejabat">'.$card_pejabat_stempel.'<br />'.$card_nip_pejabat_stempel.'</p></div></div></td>';
 $html_str .= '<td valign="top">';
 $html_str .= '<div id="kontainer_div">';
 $html_str .= '<div><img height="'.($card_box_height*$card_factor).'px" width="'.($card_box_width*$card_factor).'px" src="card2.png" style="border-radius: 8px; -moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;"></img></div>';
