@@ -62,8 +62,8 @@ $card_factor = "37.795275591"; //cm to px
 // change to 0 if dont want to use selected items 
 $card_include_id_label = 1; // no anggota
 $card_include_name_label = 1; // nama anggota
-$card_include_pin_label = 1; // nim
-$card_include_inst_label = 0; // prodi
+$card_include_pin_label = 1; // no identitas
+$card_include_inst_label = 0; // institusi
 $card_include_email_label = 0; // email
 $card_include_address_label = 1; // alamat
 $card_include_barcode_label = 1; // barcode
