@@ -5,6 +5,9 @@ Jushadi Arman Saz <czar.hadi@gmail.com>
 Kustomisasi Kartu Anggota SLiMS version 5 (Meranti)
 https://github.com/jushadi/member_card_generator
 
+Jika Anda merasa ini berguna silakan berinfak kepada orang yang membutuhkan
+ingat saya bukan konsultan pribadi Anda :)
+
 SENAYAN Library Management System (SLiMS) version 5 
 SLiMS is free open source software for library resources management
 (such as books, journals, digital document and other library materials)
